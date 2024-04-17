@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.Code4humanity.Competition">
+      <class name="com.test.Code4humanity.code4humanity_iipsrv">
         <methods>
-          <include name="deleteDataset"/>
-          <include name="close"/>
-          <include name="setup"/>
-          <include name="uploadfile"/>
+          <include name="code4humanity_iipsrv"/>
         </methods>
-      </class> <!-- com.test.Code4humanity.Competition -->
+      </class> <!-- com.test.Code4humanity.code4humanity_iipsrv -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

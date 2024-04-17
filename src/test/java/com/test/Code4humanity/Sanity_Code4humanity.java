@@ -27,24 +27,24 @@ public class Sanity_Code4humanity {
 			{
 				
 				  DesiredCapabilities dc = DesiredCapabilities.chrome();
-			        URL url = new URL("http://172.20.23.7:5555/wd/hub");
+			        URL url = new URL("http://172.12.20.99:4443/wd/hub");
 			        driver = new RemoteWebDriver(url, dc);
 			
 			       
 			}
-			//@Parameters("URL")
+		
 			@Test(priority=1)
-			//public void login(@Optional("defaultURL") String URL) throws InterruptedException
+			
 			public void Launch()throws InterruptedException
 			{
-				//driver.get(URL);
-				driver.get("http://code4humanity.humanbrain.in/annotation/analytics/home");
+				
+				driver.get("https://code4humanity.humanbrain.in/viewer/annotation/analytics/home");
 				driver.manage().window().maximize();
 			}
 			@Test(priority=2)
 			public void Home()
 			{
-				String HomeURL="http://code4humanity.humanbrain.in/annotation/analytics/home";
+				String HomeURL="https://code4humanity.humanbrain.in/viewer/annotation/analytics/home";
 				String currentURL = driver.getCurrentUrl();
 		        System.out.println("Home URL: " + currentURL);
 		        Assert.assertEquals(currentURL, HomeURL, "URLs do not match!");

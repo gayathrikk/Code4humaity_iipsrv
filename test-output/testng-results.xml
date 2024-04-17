@@ -1,57 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-12T10:36:39 IST" name="Default suite" finished-at="2024-03-12T10:37:56 IST" duration-ms="76941">
+  <suite started-at="2024-04-17T16:08:36 IST" name="Default suite" finished-at="2024-04-17T16:08:39 IST" duration-ms="2991">
     <groups>
     </groups>
-    <test started-at="2024-03-12T10:36:39 IST" name="Default test" finished-at="2024-03-12T10:37:56 IST" duration-ms="76941">
-      <class name="com.test.Code4humanity.Competition">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:36:39 IST" name="setup" finished-at="2024-03-12T10:36:40 IST" duration-ms="650" status="PASS">
+    <test started-at="2024-04-17T16:08:36 IST" name="Default test" finished-at="2024-04-17T16:08:39 IST" duration-ms="2991">
+      <class name="com.test.Code4humanity.code4humanity_iipsrv">
+        <test-method signature="code4humanity_iipsrv()[pri:1, instance:com.test.Code4humanity.code4humanity_iipsrv@f736069]" started-at="2024-04-17T16:08:36 IST" name="code4humanity_iipsrv" finished-at="2024-04-17T16:08:39 IST" duration-ms="2958" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Launch()[pri:1, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:36:40 IST" name="Launch" finished-at="2024-03-12T10:36:42 IST" duration-ms="2154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launch -->
-        <test-method signature="Login()[pri:2, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:36:42 IST" name="Login" finished-at="2024-03-12T10:37:02 IST" duration-ms="19815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Hostcompetition()[pri:3, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:02 IST" name="Hostcompetition" finished-at="2024-03-12T10:37:10 IST" duration-ms="8694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Hostcompetition -->
-        <test-method signature="competionName()[pri:4, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:10 IST" name="competionName" finished-at="2024-03-12T10:37:15 IST" duration-ms="4539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- competionName -->
-        <test-method signature="Description()[pri:5, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:15 IST" name="Description" finished-at="2024-03-12T10:37:19 IST" duration-ms="4567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Description -->
-        <test-method signature="Pipeline()[pri:6, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:19 IST" name="Pipeline" finished-at="2024-03-12T10:37:28 IST" duration-ms="9003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Pipeline -->
-        <test-method signature="uploadfile()[pri:7, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:28 IST" name="uploadfile" finished-at="2024-03-12T10:37:32 IST" duration-ms="3444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadfile -->
-        <test-method signature="save()[pri:8, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:32 IST" name="save" finished-at="2024-03-12T10:37:39 IST" duration-ms="7397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- save -->
-        <test-method signature="deleteDataset()[pri:9, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:39 IST" name="deleteDataset" finished-at="2024-03-12T10:37:56 IST" duration-ms="16522" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteDataset -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.test.Code4humanity.Competition@23c30a20]" started-at="2024-03-12T10:37:56 IST" name="close" finished-at="2024-03-12T10:37:56 IST" duration-ms="141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.test.Code4humanity.Competition -->
+        </test-method> <!-- code4humanity_iipsrv -->
+      </class> <!-- com.test.Code4humanity.code4humanity_iipsrv -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
